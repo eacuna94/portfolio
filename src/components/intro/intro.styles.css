@@ -1,0 +1,17 @@
+.intro {
+  display: flex;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.intro-left {
+  flex: 1;
+}
+
+.intro-left-wrapper {
+  padding: 50px;
+}
+
+.intro-right {
+  flex: 1;
+}
