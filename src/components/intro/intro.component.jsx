@@ -1,4 +1,5 @@
 import "./intro.styles.css";
+import HeroImg from "../../assets/img/hero-img.svg"
 
 const Intro = () => {
   return (
@@ -10,12 +11,19 @@ const Intro = () => {
           <div className="intro-title">
             <div className="intro-title-wrapper">
               <div className="intro-title-item">Web Developer</div>
-              <div className="intro-title-item">Front End Developer</div>
+              <div className="intro-title-item">Engineer</div>
+              <div className="intro-title-item">Lifelong Learner</div>
             </div>
+          </div>
+          <div className="intro-description">
+            I design and develop services for customers of all sizes, specializing
+            in creating stylish, modern websites.
           </div>
         </div>
       </div>
-      <div className="intro-right">right</div>
+      <div className="intro-right">
+        <img className="hero-img" alt="Man programming on computer" src={HeroImg} />
+      </div>
     </div>
   )
 }
